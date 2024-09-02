@@ -1,0 +1,148 @@
+@media (max-width: 590px) {
+
+    * {
+        overflow-x: hidden;
+    }
+
+    /* navbar.. */
+    .navbar-expand-lg .navbar-nav {
+        margin-left: 0px;
+    }
+
+    #top-nav {
+        background-color: transparent;
+        padding: 5px 0px;
+    }
+
+    /* section.1. */
+    #s-1-img {
+        width: 400px;
+        text-align: center;
+        margin-top: 25px;
+        margin-left: -20px;
+    }
+
+    #section-1{
+        margin: 45px 18px;
+    }
+    
+
+    .s1st h1 {
+        line-height: 45px !important;
+    }
+
+    .blkbtn {
+        width: 80%;
+        margin-top: -6px;
+        margin-bottom: 15px;
+    }
+
+    /* section-2 */
+    .blkbtnnpp {
+        text-align: center !important;
+        margin-left: -10px;
+    }
+
+    .kkkn {
+        margin-bottom: 5px;
+    }
+
+    .blkbtnn {
+        margin-bottom: 15px;
+    }
+
+    /* boxes./ */
+    .hhide {
+        display: block !important;
+    }
+
+    .boxx1 {
+        display: none !important;
+    }
+
+    .boxes {
+
+        margin: 10px 0px;
+    }
+
+    .secc-2 {
+        margin-top: 15px !important;
+    }
+
+    /* section-4. */
+    .s4-pp {
+        margin-left: 10px !important;
+    }
+
+    /* form./ */
+    .fformimg {
+        display: none;
+    }
+
+    .mainn-form {
+        background-color: #f3f3f3;
+        height: 480px !important;
+        width: 90%;
+        border-radius: 25px;
+    }
+
+    #mobile-form-width {
+        width: 100%;
+        overflow: auto;
+        /* Allows scrolling */
+        scrollbar-width: none;
+        margin-left: -12px;
+    }
+
+    /* footer./ */
+    #footer-1st {
+        flex-direction: column;
+        margin: auto;
+        margin-top: 15px;
+    }
+
+    #footer-ul {
+        flex-direction: column;
+        text-align: center;
+        margin-left: -30px;
+    }
+
+    #footer-1st i {
+        display: none;
+    }
+
+    .inpbut{
+        flex-direction: column;
+    }
+    .inpbut input {
+        width: 95% !important;
+        height: 90% !important;
+        margin-top: 10px;
+        padding: 20px;
+    }
+
+    .inpbut button {
+        width: 95% !important;
+        height: 90% !important;
+        margin-top: 10px;
+        scrollbar-width: none;
+        padding: 20px;
+        margin-bottom: 15px;
+    }
+
+    .llastt{
+        margin-left: 3px !important;
+        text-align: center !important;
+        margin-bottom: 15px !important;
+    }
+
+    .ffoott{
+        border-radius: 0px;
+    }
+    
+    .ccooppyy{
+        margin-left: 20px;
+        text-align: center;
+    }
+    
+}

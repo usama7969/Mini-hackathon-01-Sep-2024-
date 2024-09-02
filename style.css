@@ -1,0 +1,137 @@
+
+*{
+    overflow-x: hidden;
+    
+}
+
+/* navbar */
+
+#top-nav{
+    background-color: transparent;
+    padding: 10px 60px;
+    margin-top: 30px;
+}
+
+.navbar-expand-lg .navbar-nav {
+    margin-left: 280px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 5px 25px;
+}
+
+
+/* section-1. */
+
+#section-1{
+    margin: 45px 58px;
+}
+
+.blkbtn{
+    background-color: black;
+    color: white;
+    padding: 10px 25px;
+}
+
+
+/* section-2 */
+
+.blkbtnn{
+    background-color: #b9ff66;
+    color: rgb(0, 0, 0);
+    padding: 0.5px 4px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.blkbtnnpp{
+    padding-left: -80px;
+}
+
+
+/* 2 boxes */
+.boxes{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 40px 0px;
+    margin: 50px 0px;
+    box-shadow: 0 5px 3px black;
+}
+
+.boxes h4{
+    background-color: #b9ff66;
+    margin-bottom: 90px;
+}
+
+
+.boxx3{
+    display: none;
+    text-align: start;
+    padding-left: 50px;
+
+}
+.boxx3 h4{
+    margin-bottom: 20px;
+}
+
+
+/* Faq's Information */
+.accordion-item, .accordion-button:not(.collapsed){
+    background-color: #b9ff66;
+    border-bottom: 1px solid black;
+}
+
+.accordion-item{
+    margin-bottom: 40px;
+    border: 1px solid black;
+    box-shadow: 0 3px 3px black;
+   
+}
+
+
+/* close faq;s. */
+.accordion-button::after {
+    background-image: url(./Images/Faq;s\ Plus.png);
+    background-size: cover;
+}
+/* open faq;s. */
+.accordion-button:not(.collapsed)::after {
+    background-image: url(./Images/Faq;s\ Minus.png);
+}
+
+
+/* footer. */
+
+#footer-1st{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+}
+#footer-ul{
+    display: flex;
+    list-style: none;
+}
+#footer-ul li{
+   padding: 20px;
+   margin-top: 9px;
+}
+#footer-1st i {
+margin: 10px;
+}
+.inin::placeholder{
+color: white;
+}
+
+.ffoott{
+    background-color: #191a23;
+    height: auto;
+    color: white;
+    margin-top: 100px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px
+}
+
+.ccooppyy{
+    margin-left: 37px;
+}
